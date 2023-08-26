@@ -3,8 +3,10 @@
 
 #include <utils/types.h>
 
-INT64 tcrypt_gcd(INT64 a, INT64 b);
+UINT64 tcrypt_gcd(UINT64 a, UINT64 b);
 
-INT64 tcrypt_bgcd(INT64 a, INT64 b);
+UINT64 tcrypt_bgcd(UINT64 a, UINT64 b);
+
+UINT64 tcrypt_mi(INT64 num, INT64 mod);
 
 #endif

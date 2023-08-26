@@ -10,3 +10,7 @@ utils: $(SRC_UTILS)
 
 clean:
 	rm -rf build/
+
+help:
+	@echo utils: crypt utilities
+	@echo clean: clean build files

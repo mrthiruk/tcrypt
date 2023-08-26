@@ -11,8 +11,9 @@
 #define UINT16 					uint16_t
 #define UINT32 					uint32_t
 #define UINT64 					uint64_t
-#define STATUS 					int8_t
 #define SUCCESS					0
 #define FAILURE					-1
+
+typedef int8_t status_ct;
 
 #endif
